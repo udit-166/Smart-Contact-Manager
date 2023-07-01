@@ -1,0 +1,281 @@
+input{
+	background-color: white;
+}
+.bg-primary{
+	background:#050A30 !important;
+}
+.banner{
+	width:100%;
+	height: 100vh;
+	background:url(../img/phone1.jpg);
+	background-size:cover;
+	
+	color: white;
+	
+	
+}
+.u{
+	width:100%;
+	height: 120vh;
+	background:url(../img/signup.jpg);
+	background-size:cover;
+	
+	color: white;
+}
+.p{
+	width:100%;
+	height: 100vh;
+	background:url(../img/signup.jpg);
+	background-size:cover;
+	color: white;
+}
+.b{
+	width:100%;
+	height: 140vh;
+	background:url(../img/signup.jpg);
+	background-size:cover;
+	
+	color: white;
+}
+.e{
+	width:100%;
+	height: 190vh;
+	background:url(../img/signup.jpg);
+	background-size:cover;
+	
+	color: white;
+}
+.x{
+	outline-color: white;
+	color: #050A30;
+	background-color: white;
+	
+}
+.x:hover{
+	background-color: #424242;
+	color: white;
+}
+@media only screen and (max-width: 780px){
+ 	.qww{
+ 		width:100%;
+ 	}
+ 	.ee{
+ 		width:100%;
+ 	}
+ 	.card1{
+ 	margin:auto;
+ 	}
+ }
+ 
+.qww{
+	margin-top:20%;
+	margin-left:15%;
+	width:80%;
+	box-shadow: 10px 12px 15px gray;
+	padding: 6% 10% 6% 10%;
+	
+	
+}
+.ee{
+	margin-top:10%;
+	
+	
+}
+ 
+.w{	
+	width:100%;
+	height: 100vh;
+	background-color:#F2F2F2;
+	background-size: cover;
+}
+.trr{
+	margin: 10px,45px,500px,45px;
+}
+.my-card{
+	padding: 20px;
+	
+	
+}
+
+        a{
+         text-decoration:none !important;
+         }
+         h1,h2,h3{
+         font-family: 'Kaushan Script', cursive;
+         }
+          .myform{
+         margin-top: 40px;
+  width: 100%;
+  height: 450px;
+  border: 1px solid #9C9C9C;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.2);
+		border-radius: 1.1rem;
+		background-clip: padding-box;
+		padding: 1rem;
+		outline: 0;
+		max-width: 500px;
+		pointer-events: auto;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		position:relative;
+		display: -ms-flexbox;
+		display: flex;
+		 }
+         .tx-tfm{
+         text-transform:uppercase;
+         }
+         .mybtn{
+         border-radius:50px;
+         }
+        
+         .login-or {
+         position: relative;
+         color: #aaa;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         }
+         .span-or {
+         display: block;
+         position: absolute;
+         left: 50%;
+         top: -2px;
+         margin-left: -25px;
+         background-color: #fff;
+         width: 50px;
+         text-align: center;
+         }
+         .hr-or {
+         height: 1px;
+         margin-top: 0px !important;
+         margin-bottom: 0px !important;
+         }
+         .google {
+         color:#666;
+         width:100%;
+         height:40px;
+         text-align:center;
+         outline:none;
+         border: 1px solid lightgrey;
+         }
+          form .error {
+         color: #ff0000;
+         }
+         #second{display:none;}
+         
+  /* sidebar style */
+  @media only screen and (max-width: 600px){
+  .sidebar{
+  	display:none;
+  	width: 80% !important;
+  	background-color: #050A30;
+  	height: 100vh;
+  	position:fixed;
+  	padding-top:20px;
+  }
+  .content{
+  	margin-left:0% !important;
+  }
+  }
+ .sidebar{
+	  		width: 18%;
+	  		background-color: #050A30;
+	  		height: 100%;
+	  		position: fixed;
+	  		padding-top: 45px;
+	  		z-index: 99999999999999999999999999999999;
+	  }
+  .sidebar a{
+  		display: block;
+  		width: 100%;
+  		padding: 10px 25px;
+  		text-decoration: none;
+  		color:white;
+  }
+  .sidebar a:hover{
+  	background-color: #424242;
+ }
+  
+  .sidebar .divider{
+  	height: .5px;
+  	width: 100%;
+  	background: #e2e2e2;
+  	margin-top: 10px;
+  }
+  
+  .content{
+	  		margin-left: 20%;
+	  }
+ .sidebar .crossBtn{
+  	position:absolute;
+  	top:0;
+  	right: 35px;
+  	font-size: 36px;
+  	cursor: pointer;
+  	color: white;
+  }
+  .my_profile_picture{
+  	width:30px;
+  	height: 30px;
+  	object-fit:cover;
+  	border-radius: 50%;
+  }
+  .qw{
+  	border:1px solid black;
+  	border-radius: 50%;
+  	
+  }
+  .btn-outline{
+  	border:1px solid #050A30;
+  	height: 100%;
+  	width: 30%;
+  }
+  .btn-outline:hover{
+  	color:white;
+  	background-color: #050A30;
+  }
+  .btn-outline1{
+  	border:1px solid #050A30;
+  	background-color:white;
+  	color:#050A30;
+  	height: 100%;
+  	width: 30%;
+  }
+  .btn-outline1:hover{
+  	background-color:#F2F2F2;
+  }
+  .slie{
+  	padding-bottom: 5%;
+  }
+  .o{
+  	box-shadow: 10px 12px 15px gray;
+  }
+  .c{
+  	color: white;
+  	color: white;;
+  }
+  .d:hover{
+  	background-color: #424242;
+  }
+  /* search css*/
+  .search-container{
+  position: relative;
+  width: 50%
+  }
+  .search-result{
+  	position: absolute;
+  	background: white;
+  	width: 100%;
+  	
+  }
+  .activ{
+  	background-color: #424242;
+  }
+  .form-gap {
+    padding-top: 5%;
+}
+.m{
+	margin-top:5%;
+}

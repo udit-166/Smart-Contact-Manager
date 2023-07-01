@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>this is home page</title>
+</head>
+<body>
+	<section>
+		<div class="me-3 ms-3">
+			<div class="bg-primary" th:if="${contact}">
+				<div class="container text-center">
+					<img style="height: 200px; width: 200px" class="my_profile_picture" th:src="@{'/img/'+${contact.image}}" alt="profile photo"/>
+					<h3 class="d c mt-3"> <span th:text="${contact.name}"></span>( <span th:text="${contact.secondName}"></span> )</h3>
+					<table class="table table-striped">
+						  <thead>
+						    <tr>
+						      <th class="d" scope="col"><span class="c">#ID</span></th>
+						      <th class="d" scope="col"><span class="c" th:text="${contact.cid}"></span></th>
+						      
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th class="d" scope="row" ><span class="c">Email</span></th>
+						      <td class="d"><span class="c" th:text="${contact.email}"></span></td>
+						    </tr>
+						    <tr>
+						      <th class="d" scope="row" ><span class="c">Phone</span></th>
+						      <td class="d"><span class="c" th:text="${contact.phone}"></span></td>
+						    </tr>
+						    <tr>
+						      <th class="d" scope="row" ><span class="c">Work</span></th>
+						      <td class="d"><span class="c"th:text="${contact.work}"></span></td>
+						    </tr>
+						    
+						  </tbody>
+						  
+						  
+						</table>
+						<div class="description">
+						  		<span class="c" th:utext="${contact.description}"></span>
+						  </div>
+						  <div class="container">
+						  	<button th:onclick="|deleteContact(${contact.cid})|" class="btn btn-danger btn-sm">Delete</button>
+				      		<form th:action="@{'/user/update-contact/'+${contact.cid}}" method="post" class="mt-2">
+				      		<button class="btn btn-primary btn-sm">Update</button></form>
+						  </div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<h1 class="text-center p-3 bg-danger text-white"  th:unless="${contact}">You don't have permission to see this contact</h1>
+	</section>
+</body>
+</html>
