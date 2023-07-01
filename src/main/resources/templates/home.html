@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>this is home page</title>
+</head>
+<body>
+	<section>
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-6 float-start justify-content-center text-align-center">
+		<div class="qww text-center">
+		<h1 class="font-weight-bold">Make Your Own Lifelong Contact Detail</h1>
+			<p>Start Collecting your contacts in very smarter way. We provide very efficient and smarter way of handling contatcs.
+			</p> 
+			<a class="mybtn btn bg-primary btn-lg text-white " href="/user/index">Get Start</a>
+		
+		</div>
+	</div>
+	<div class="ee col-md-6 float-end justify-content-center text-align-center">
+	<div class="text-center">
+		<img src="" th:src="@{'/img/qqq1.png'}" style="width:100%;" height="120%" alt="" />
+		</div>
+	</div>
+	</div>
+	<div class="row bg-primary">
+	
+		<h1 class="text-center text-white">Our Key Features</h1>
+		<p class=" mt-3 text-center text-white"> We Provide a very proficient features to manange your saved contact on cloud.Also our service for storing is free and we are happy to announce that we will provide some pro features very soon and with more better functionality!!! </p>
+		<div class="col-md-3 justify-content-center text-align-center">
+			<div class="row mt-2"><div class="col-md-12 text-center"><img class="qw" th:src="@{'/img/stoage.png'}" style="width:50%;" height="100%" alt="" /></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><h2 class="text-uppercase text-white">Store</h2></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><p class="text-white">You can store large amount of the contact in this cloud storage.It is very easy to store your contacts details.</p></div></div>
+		</div>
+		<div class="col-md-3 justify-content-center text-align-center">
+			<div class="row mt-2"><div class="col-md-12 text-center"><img  class="qw" th:src="@{'/img/access.png'}" style="width:50%;" height="100%" /></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><h2 class="text-uppercase text-white">Access</h2></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><p class="text-white">We provide are very easy accessing to our each users and at there levels.</p></div>
+			</div>
+			</div>
+		<div class="col-md-3 justify-content-center text-align-center">
+			<div class="row mt-2"><div class="col-md-12 text-center"><img class="qw" th:src="@{'/img/update.png'}" style="width:50%;" height="100%" alt="" /></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><h2 class="text-uppercase text-white">Update</h2></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><p class="text-white">You can easily update your contact and edit it as you want.</p></div></div>
+		</div>
+		<div class="col-md-3 justify-content-center text-align-center">
+			<div class="row mt-2"><div class="col-md-12 text-center"><img class="qw" th:src="@{'/img/delete.png'}" style="width:50%;" height="100%" alt="" /></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><h2 class="text-uppercase text-white">Delete</h2></div></div>
+			<div class="row mt-2"><div class="col-md-12 text-center"><p class="text-white"> We provide as service through which you can delete number of unwanted saved contacts.</p></div></div>
+		</div>
+	</div>
+	<div class="row justify-content-center text-align-center mt-3 text-center">
+	<h1 class="text-center">Are you new here  !!</h1>
+	
+		<img th:src="@{'/img/new user.png'}" alt="" style="width:20%;" height="30%" />
+		<h3 class="text-center" style="color:#050A30;">Create your account to store your contact parmanently and manage it smartly..</h3>
+		
+		<p class="text-center" style="color:#050A30;"> Click below on signup button to create account.<p>
+		<div class="text-center">
+		<a class="btn btn-outline" style="border-radius: 50%;">SIGNUP</a>
+		</div>
+	</div>
+	<div class="row slie mt-5 pt-3 justify-content-center text-align-center" style="background-color: #F2F2F2">
+		<div class="col-md-6">
+			<h1 class="text-center">Powerful Add-Ons</h1>
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <div class="text-center "><img class="qw" th:src="@{'/img/database.png'}" style="width:30%;" height="50%" alt="" /></div>
+							<div class="text-center mt-3"><h4>We have a best backup facilities. Whenever you loss your contact we will help you to regain it as cloud did.</h4></div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="text-center"><img class="qw" th:src="@{'/img/security.png'}" style="width:30%;" height="20%" alt="" /></div>
+						<div class="text-center mt-3"><h4>As the as first thought is security about things they store our team provide best and latest security without bugs.</h4></div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center text-align-center text-center text-white bg-primary mt-1">
+				<div class="mt-1"><p>&#169;Created by Udit Shahi <br>udhishahi1606@gmail.com</p></div>
+			</div>
+		</div>
+	
+	</section>
+</body>
+</html>
